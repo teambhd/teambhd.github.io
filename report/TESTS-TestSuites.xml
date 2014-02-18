@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="0" name="Airspace_Tests" package="unitTests" skipped="0" tests="7" time="0.092" timestamp="2014-02-17T15:40:49">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="0" name="Airspace_Tests" package="unitTests" skipped="0" tests="9" time="0.17" timestamp="2014-02-18T21:28:09">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -30,9 +30,9 @@
 
           <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
 
-          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-qfquD6/Render" />
+          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-HsYNpE/Render" />
 
-          <property name="env.DISPLAY" value="/tmp/launch-oyEEW5/org.macosforge.xquartz:0" />
+          <property name="env.DISPLAY" value="/tmp/launch-eZziLI/org.macosforge.xquartz:0" />
 
           <property name="user.name" value="tim" />
 
@@ -86,6 +86,8 @@
 
           <property name="env.LOGNAME" value="tim" />
 
+          <property name="env.JAVA_MAIN_CLASS_1087" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="ant.file" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
           <property name="os.version" value="10.9.1" />
@@ -132,13 +134,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Airspace_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.Airspace_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher174817444449288003.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit2965005552741992822.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Airspace_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.Airspace_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher1398465907941939756.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit633459041330161595.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment3/bin:/Users/tim/Projects/sepr/assessment3/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="892A0786-1888-4BE6-9580-94F869FFDAF2" />
+          <property name="env.TERM_SESSION_ID" value="900B69E4-B511-4A5B-8658-31231AC2EC85" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -148,9 +150,9 @@
 
           <property name="java.vm.specification.version" value="1.0" />
 
-          <property name="sun.cpu.endian" value="little" />
-
           <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="sun.cpu.endian" value="little" />
 
           <property name="debuglevel" value="source,lines,vars" />
 
@@ -160,7 +162,7 @@
 
           <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
 
-          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-73wyZ7/Listeners" />
+          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-xt5lgc/Listeners" />
 
           <property name="ant.file.Game" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
@@ -171,8 +173,6 @@
           <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
 
           <property name="os.arch" value="x86_64" />
-
-          <property name="env.JAVA_MAIN_CLASS_1356" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.ext.dirs" value="/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
 
@@ -202,7 +202,11 @@
 
       </properties>
 
-      <testcase classname="unitTests.Airspace_Tests" name="generateFlightNameTest" time="0.0090" />
+      <testcase classname="unitTests.Airspace_Tests" name="RemoveSpecificTest1" time="0.01" />
+
+      <testcase classname="unitTests.Airspace_Tests" name="RemoveSpecificTest2" time="0.0020" />
+
+      <testcase classname="unitTests.Airspace_Tests" name="generateFlightNameTest" time="0.0020" />
 
       <testcase classname="unitTests.Airspace_Tests" name="newExitPointTest" time="0.0020" />
 
@@ -210,13 +214,73 @@
 
       <testcase classname="unitTests.Airspace_Tests" name="newEntryPointTest" time="0.0020" />
 
-      <testcase classname="unitTests.Airspace_Tests" name="resetAirspaceTest" time="0.0030" />
+      <testcase classname="unitTests.Airspace_Tests" name="resetAirspaceTest" time="0.0010" />
 
-      <testcase classname="unitTests.Airspace_Tests" name="changeScoreTest" time="0.0020" />
+      <testcase classname="unitTests.Airspace_Tests" name="changeScoreTest" time="0.0010" />
 
       <testcase classname="unitTests.Airspace_Tests" name="newWaypointTest" time="0.0020" />
 
       <system-out><![CDATA[Point BHD set:(572.0,197.0).
+Airport BHD set:(572.0,197.0).
+Point A set:(350.0,150.0).
+Waypoint A set:(350.0,150.0).
+Point B set:(400.0,470.0).
+Waypoint B set:(400.0,470.0).
+Point C set:(700.0,60.0).
+Waypoint C set:(700.0,60.0).
+Point D set:(800.0,320.0).
+Waypoint D set:(800.0,320.0).
+Point E set:(600.0,418.0).
+Waypoint E set:(600.0,418.0).
+Point F set:(500.0,220.0).
+Waypoint F set:(500.0,220.0).
+Point G set:(950.0,188.0).
+Waypoint G set:(950.0,188.0).
+Point H set:(1050.0,272.0).
+Waypoint H set:(1050.0,272.0).
+Point I set:(900.0,420.0).
+Waypoint I set:(900.0,420.0).
+Point J set:(240.0,250.0).
+Waypoint J set:(240.0,250.0).
+Point 1 set:(800.0,0.0).
+ExitPoint 1 set:(800.0,0.0).
+Point 2 set:(150.0,200.0).
+ExitPoint 2 set:(150.0,200.0).
+Point 3 set:(1200.0,300.0).
+ExitPoint 3 set:(1200.0,300.0).
+Point Airport set:(572.0,197.0).
+Airport Airport set:(572.0,197.0).
+Point BHD set:(572.0,197.0).
+Airport BHD set:(572.0,197.0).
+Point A set:(350.0,150.0).
+Waypoint A set:(350.0,150.0).
+Point B set:(400.0,470.0).
+Waypoint B set:(400.0,470.0).
+Point C set:(700.0,60.0).
+Waypoint C set:(700.0,60.0).
+Point D set:(800.0,320.0).
+Waypoint D set:(800.0,320.0).
+Point E set:(600.0,418.0).
+Waypoint E set:(600.0,418.0).
+Point F set:(500.0,220.0).
+Waypoint F set:(500.0,220.0).
+Point G set:(950.0,188.0).
+Waypoint G set:(950.0,188.0).
+Point H set:(1050.0,272.0).
+Waypoint H set:(1050.0,272.0).
+Point I set:(900.0,420.0).
+Waypoint I set:(900.0,420.0).
+Point J set:(240.0,250.0).
+Waypoint J set:(240.0,250.0).
+Point 1 set:(800.0,0.0).
+ExitPoint 1 set:(800.0,0.0).
+Point 2 set:(150.0,200.0).
+ExitPoint 2 set:(150.0,200.0).
+Point 3 set:(1200.0,300.0).
+ExitPoint 3 set:(1200.0,300.0).
+Point Airport set:(572.0,197.0).
+Airport Airport set:(572.0,197.0).
+Point BHD set:(572.0,197.0).
 Airport BHD set:(572.0,197.0).
 Point A set:(350.0,150.0).
 Waypoint A set:(350.0,150.0).
@@ -435,7 +499,7 @@ Waypoint TEST set:(151.0,500.0).
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="1" name="FlightPlan_Tests" package="unitTests" skipped="0" tests="9" time="0.13" timestamp="2014-02-17T15:40:50">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="1" name="FlightPlan_Tests" package="unitTests" skipped="0" tests="9" time="0.12" timestamp="2014-02-18T21:28:10">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -465,9 +529,9 @@ Waypoint TEST set:(151.0,500.0).
 
           <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
 
-          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-qfquD6/Render" />
+          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-HsYNpE/Render" />
 
-          <property name="env.DISPLAY" value="/tmp/launch-oyEEW5/org.macosforge.xquartz:0" />
+          <property name="env.DISPLAY" value="/tmp/launch-eZziLI/org.macosforge.xquartz:0" />
 
           <property name="user.name" value="tim" />
 
@@ -521,6 +585,8 @@ Waypoint TEST set:(151.0,500.0).
 
           <property name="env.LOGNAME" value="tim" />
 
+          <property name="env.JAVA_MAIN_CLASS_1087" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="ant.file" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
           <property name="os.version" value="10.9.1" />
@@ -567,13 +633,13 @@ Waypoint TEST set:(151.0,500.0).
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightPlan_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.FlightPlan_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher3783585398151147496.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit6428451860626911844.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightPlan_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.FlightPlan_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher4580413777451349785.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit5130637918590757584.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment3/bin:/Users/tim/Projects/sepr/assessment3/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="892A0786-1888-4BE6-9580-94F869FFDAF2" />
+          <property name="env.TERM_SESSION_ID" value="900B69E4-B511-4A5B-8658-31231AC2EC85" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -583,9 +649,9 @@ Waypoint TEST set:(151.0,500.0).
 
           <property name="java.vm.specification.version" value="1.0" />
 
-          <property name="sun.cpu.endian" value="little" />
-
           <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="sun.cpu.endian" value="little" />
 
           <property name="debuglevel" value="source,lines,vars" />
 
@@ -595,7 +661,7 @@ Waypoint TEST set:(151.0,500.0).
 
           <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
 
-          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-73wyZ7/Listeners" />
+          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-xt5lgc/Listeners" />
 
           <property name="ant.file.Game" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
@@ -606,8 +672,6 @@ Waypoint TEST set:(151.0,500.0).
           <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
 
           <property name="os.arch" value="x86_64" />
-
-          <property name="env.JAVA_MAIN_CLASS_1356" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.ext.dirs" value="/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
 
@@ -637,23 +701,23 @@ Waypoint TEST set:(151.0,500.0).
 
       </properties>
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest1" time="0.011" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest1" time="0.015" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest2" time="0.0070" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest2" time="0.0060" />
 
       <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest3" time="0.0040" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest4" time="0.0030" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest4" time="0.0020" />
 
       <testcase classname="unitTests.FlightPlan_Tests" name="generateVelocityTest" time="0.0020" />
 
       <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest" time="0.0020" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="generateEntryPointTest1" time="0.0020" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="generateEntryPointTest1" time="0.0030" />
 
       <testcase classname="unitTests.FlightPlan_Tests" name="generateEntryPointTest2" time="0.0020" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest2" time="0.0020" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest2" time="0.0030" />
 
       <system-out><![CDATA[Point BHD set:(572.0,197.0).
 Airport BHD set:(572.0,197.0).
@@ -942,7 +1006,7 @@ ExitPoint 3 set:(1200.0,300.0).
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="2" name="Flight_Tests" package="unitTests" skipped="0" tests="41" time="0.228" timestamp="2014-02-17T15:40:51">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="2" name="Flight_Tests" package="unitTests" skipped="0" tests="41" time="0.203" timestamp="2014-02-18T21:28:10">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -972,9 +1036,9 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
 
-          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-qfquD6/Render" />
+          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-HsYNpE/Render" />
 
-          <property name="env.DISPLAY" value="/tmp/launch-oyEEW5/org.macosforge.xquartz:0" />
+          <property name="env.DISPLAY" value="/tmp/launch-eZziLI/org.macosforge.xquartz:0" />
 
           <property name="user.name" value="tim" />
 
@@ -1028,6 +1092,8 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="env.LOGNAME" value="tim" />
 
+          <property name="env.JAVA_MAIN_CLASS_1087" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="ant.file" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
           <property name="os.version" value="10.9.1" />
@@ -1074,13 +1140,13 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Flight_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.Flight_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher383713891173062959.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit8059068425235295560.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Flight_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.Flight_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher315886249097546401.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit405900876772404461.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment3/bin:/Users/tim/Projects/sepr/assessment3/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="892A0786-1888-4BE6-9580-94F869FFDAF2" />
+          <property name="env.TERM_SESSION_ID" value="900B69E4-B511-4A5B-8658-31231AC2EC85" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -1090,9 +1156,9 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.vm.specification.version" value="1.0" />
 
-          <property name="sun.cpu.endian" value="little" />
-
           <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="sun.cpu.endian" value="little" />
 
           <property name="debuglevel" value="source,lines,vars" />
 
@@ -1102,7 +1168,7 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
 
-          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-73wyZ7/Listeners" />
+          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-xt5lgc/Listeners" />
 
           <property name="ant.file.Game" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
@@ -1113,8 +1179,6 @@ ExitPoint 3 set:(1200.0,300.0).
           <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
 
           <property name="os.arch" value="x86_64" />
-
-          <property name="env.JAVA_MAIN_CLASS_1356" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.ext.dirs" value="/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
 
@@ -1164,33 +1228,33 @@ ExitPoint 3 set:(1200.0,300.0).
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest2" time="0.0020" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest3" time="0.0030" />
+      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest3" time="0.0040" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest4" time="0.0020" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest5" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest5" time="0.0030" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest6" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest6" time="0.0030" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest7" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest8" time="0.0020" />
 
-      <testcase classname="unitTests.Flight_Tests" name="LandTest1" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="LandTest1" time="0.0030" />
 
-      <testcase classname="unitTests.Flight_Tests" name="LandTest2" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="LandTest2" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="calculateHeadingToFirstWaypointTest1" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="calculateHeadingToFirstWaypointTest1" time="0.0090" />
 
-      <testcase classname="unitTests.Flight_Tests" name="calculateHeadingToFirstWaypointTest2" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="calculateHeadingToFirstWaypointTest2" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest1" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest2" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest2" time="0.0010" />
 
       <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest3" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="generateAltitudeTest1" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="generateAltitudeTest1" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="giveHeadingTest1" time="0.0010" />
 
@@ -1204,27 +1268,27 @@ ExitPoint 3 set:(1200.0,300.0).
 
       <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest2" time="0.0020" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest3" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest3" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest4" time="0.0010" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest5" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateXYCoordinates" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="updateXYCoordinates" time="0.0020" />
 
-      <testcase classname="unitTests.Flight_Tests" name="TakeoffTest1" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="TakeoffTest1" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="TakeOffTest2" time="0.0020" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest1" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest2" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest2" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest3" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest3" time="0.0040" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest4" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest5" time="0.0020" />
+      <testcase classname="unitTests.Flight_Tests" name="updateVelocityTest5" time="0.0010" />
 
       <system-out><![CDATA[Point BHD set:(572.0,197.0).
 Airport BHD set:(572.0,197.0).
@@ -2389,7 +2453,7 @@ ExitPoint 3 set:(1200.0,300.0).
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="3" name="SeparationRules_Tests" package="unitTests" skipped="0" tests="5" time="0.089" timestamp="2014-02-17T15:40:52">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="3" name="SeparationRules_Tests" package="unitTests" skipped="0" tests="5" time="0.091" timestamp="2014-02-18T21:28:11">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -2419,9 +2483,9 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609" />
 
-          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-qfquD6/Render" />
+          <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-HsYNpE/Render" />
 
-          <property name="env.DISPLAY" value="/tmp/launch-oyEEW5/org.macosforge.xquartz:0" />
+          <property name="env.DISPLAY" value="/tmp/launch-eZziLI/org.macosforge.xquartz:0" />
 
           <property name="user.name" value="tim" />
 
@@ -2475,6 +2539,8 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="env.LOGNAME" value="tim" />
 
+          <property name="env.JAVA_MAIN_CLASS_1087" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="ant.file" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
           <property name="os.version" value="10.9.1" />
@@ -2521,13 +2587,13 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.SeparationRules_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.SeparationRules_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher1861000693761294495.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit6659188650256589718.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.SeparationRules_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment3/junit/TEST-unitTests.SeparationRules_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment3/junitvmwatcher1713388241694972826.properties propsfile=/Users/tim/Projects/sepr/assessment3/junit5059459934500405555.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment3/bin:/Users/tim/Projects/sepr/assessment3/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment3/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="892A0786-1888-4BE6-9580-94F869FFDAF2" />
+          <property name="env.TERM_SESSION_ID" value="900B69E4-B511-4A5B-8658-31231AC2EC85" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -2537,9 +2603,9 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.vm.specification.version" value="1.0" />
 
-          <property name="sun.cpu.endian" value="little" />
-
           <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="sun.cpu.endian" value="little" />
 
           <property name="debuglevel" value="source,lines,vars" />
 
@@ -2549,7 +2615,7 @@ ExitPoint 3 set:(1200.0,300.0).
 
           <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
 
-          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-73wyZ7/Listeners" />
+          <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-xt5lgc/Listeners" />
 
           <property name="ant.file.Game" value="/Users/tim/Projects/sepr/assessment3/build.xml" />
 
@@ -2560,8 +2626,6 @@ ExitPoint 3 set:(1200.0,300.0).
           <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
 
           <property name="os.arch" value="x86_64" />
-
-          <property name="env.JAVA_MAIN_CLASS_1356" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.ext.dirs" value="/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
 
@@ -2591,11 +2655,11 @@ ExitPoint 3 set:(1200.0,300.0).
 
       </properties>
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseVerticalTest" time="0.0090" />
+      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseVerticalTest" time="0.011" />
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="verticalDistanceBetweenFlightsTest" time="0.0020" />
+      <testcase classname="unitTests.SeparationRules_Tests" name="verticalDistanceBetweenFlightsTest" time="0.0010" />
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseLateralTest" time="0.0010" />
+      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseLateralTest" time="0.0020" />
 
       <testcase classname="unitTests.SeparationRules_Tests" name="lateralDistanceBetweenFLightsTest" time="0.0020" />
 

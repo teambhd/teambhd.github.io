@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# This is just a little Python script, originally from the Brython project, to run a local webserver.
+# Run `python server.py` in the website directory and then go to http://localhost:8000
+
 import sys
 
 if sys.version < '3':

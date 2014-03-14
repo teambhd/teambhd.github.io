@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="tims-macbook" id="0" name="Airspace_Tests" package="unitTests" skipped="0" tests="6" time="0.088" timestamp="2014-03-14T21:57:47">
+  <testsuite errors="1" failures="0" hostname="tims-macbook" id="0" name="Airspace_Tests" package="unitTests" skipped="0" tests="6" time="0.256" timestamp="2014-03-14T23:18:31">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -51,8 +51,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -132,13 +130,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Airspace_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Airspace_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher4505678884322820910.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit7399802387626368011.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Airspace_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Airspace_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher8311940100847856105.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit5751065894052670991.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -180,6 +178,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -196,31 +196,37 @@
 
       </properties>
 
-      <testcase classname="unitTests.Airspace_Tests" name="generateFlightNameTest" time="0.0080" />
+      <testcase classname="unitTests.Airspace_Tests" name="generateFlightNameTest" time="0.014" />
 
-      <testcase classname="unitTests.Airspace_Tests" name="newExitPointTest" time="0.0010" />
+      <testcase classname="unitTests.Airspace_Tests" name="newExitPointTest" time="0.0" />
 
       <testcase classname="unitTests.Airspace_Tests" name="checkIfFlightHasLeftAirspaceTest" time="0.0010" />
 
       <testcase classname="unitTests.Airspace_Tests" name="newEntryPointTest" time="0.0" />
 
-      <testcase classname="unitTests.Airspace_Tests" name="resetAirspaceTest" time="0.0080">
+      <testcase classname="unitTests.Airspace_Tests" name="resetAirspaceTest" time="0.012">
           <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at logicClasses.Controls.setSelectedFlight(Controls.java:242)
 	at logicClasses.Airspace.resetAirspace(Airspace.java:57)
-	at unitTests.Airspace_Tests.resetAirspaceTest(Airspace_Tests.java:48)
+	at unitTests.Airspace_Tests.resetAirspaceTest(Airspace_Tests.java:49)
 </error>
 
       </testcase>
 
       <testcase classname="unitTests.Airspace_Tests" name="newWaypointTest" time="0.0" />
 
-      <system-out><![CDATA[]]></system-out>
+      <system-out><![CDATA[?
+?
+?
+?
+?
+?
+]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="1" failures="10" hostname="tims-macbook" id="1" name="Controls_Tests" package="unitTests" skipped="0" tests="12" time="0.111" timestamp="2014-03-14T21:57:48">
+  <testsuite errors="1" failures="10" hostname="tims-macbook" id="1" name="Controls_Tests" package="unitTests" skipped="0" tests="12" time="0.282" timestamp="2014-03-14T23:18:32">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -271,8 +277,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -352,13 +356,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Controls_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Controls_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher1144473299127272875.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit5856607461561092888.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Controls_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Controls_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher8479727740128321466.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit8473049936349267375.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -400,6 +404,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -416,14 +422,14 @@
 
       </properties>
 
-      <testcase classname="unitTests.Controls_Tests" name="testUpdateTurnLeftTextBox" time="0.0070">
+      <testcase classname="unitTests.Controls_Tests" name="testUpdateTurnLeftTextBox" time="0.014">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testUpdateTurnLeftTextBox(Controls_Tests.java:65)
 </failure>
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testUpdateTurnRightTextBox" time="0.0020">
+      <testcase classname="unitTests.Controls_Tests" name="testUpdateTurnRightTextBox" time="0.0010">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testUpdateTurnRightTextBox(Controls_Tests.java:70)
 </failure>
@@ -437,14 +443,14 @@
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testInit" time="0.0030">
+      <testcase classname="unitTests.Controls_Tests" name="testInit" time="0.0010">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testInit(Controls_Tests.java:35)
 </failure>
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testGetSelectedFlight" time="0.011">
+      <testcase classname="unitTests.Controls_Tests" name="testGetSelectedFlight" time="0.02">
           <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at logicClasses.Controls.setSelectedFlight(Controls.java:242)
 	at unitTests.Controls_Tests.testGetSelectedFlight(Controls_Tests.java:93)
@@ -473,21 +479,21 @@
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testGiveHeadingWithMouse" time="0.0010">
+      <testcase classname="unitTests.Controls_Tests" name="testGiveHeadingWithMouse" time="0.0020">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testGiveHeadingWithMouse(Controls_Tests.java:55)
 </failure>
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testRender" time="0.0010">
+      <testcase classname="unitTests.Controls_Tests" name="testRender" time="0.0020">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testRender(Controls_Tests.java:75)
 </failure>
 
       </testcase>
 
-      <testcase classname="unitTests.Controls_Tests" name="testUpdate" time="0.0010">
+      <testcase classname="unitTests.Controls_Tests" name="testUpdate" time="0.0030">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.Controls_Tests.testUpdate(Controls_Tests.java:80)
 </failure>
@@ -501,7 +507,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="2" name="DeferredFile_Test" package="unitTests" skipped="0" tests="2" time="0.141" timestamp="2014-03-14T21:57:49">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="2" name="DeferredFile_Test" package="unitTests" skipped="0" tests="2" time="0.072" timestamp="2014-03-14T23:18:33">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -552,8 +558,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -633,13 +637,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.DeferredFile_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.DeferredFile_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher2297183186228221505.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit174516079591459241.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.DeferredFile_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.DeferredFile_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher7157135826016537045.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit2625730403379667144.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -680,6 +684,8 @@
           <property name="mrj.version" value="1070.1.6.0_65-462" />
 
           <property name="line.separator" value="&#xa;" />
+
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
@@ -706,7 +712,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="24" failures="0" hostname="tims-macbook" id="3" name="FlightMenu_Tests" package="unitTests" skipped="0" tests="24" time="0.557" timestamp="2014-03-14T21:57:49">
+  <testsuite errors="24" failures="0" hostname="tims-macbook" id="3" name="FlightMenu_Tests" package="unitTests" skipped="0" tests="24" time="0.502" timestamp="2014-03-14T23:18:33">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -757,8 +763,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -838,13 +842,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightMenu_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.FlightMenu_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher5334594258981062157.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit7874850462691262980.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightMenu_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.FlightMenu_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher6589196803255146271.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit6584198359665300190.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -886,6 +890,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -902,7 +908,7 @@
 
       </properties>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSliderWidth" time="0.433">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSliderWidth" time="0.338">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -930,7 +936,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSpacingSize" time="0.0020">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSpacingSize" time="0.0030">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -944,7 +950,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetButtonColor" time="0.0020">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetButtonColor" time="0.012">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -958,7 +964,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetButtonWidth" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetButtonWidth" time="0.0030">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -986,7 +992,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSpeedSize" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSpeedSize" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1014,7 +1020,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testGetLabelColor" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testGetLabelColor" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1042,7 +1048,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testIsAcceptingInput" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testIsAcceptingInput" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1070,7 +1076,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSpacingSize" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testGetSpacingSize" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1084,7 +1090,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSliderWidth" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSliderWidth" time="0.0030">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1126,7 +1132,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetLabelColor" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetLabelColor" time="0.0030">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1154,7 +1160,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSpeedSize" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetSpeedSize" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1182,7 +1188,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetAltSize" time="0.0010">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetAltSize" time="0.0030">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1224,7 +1230,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.FlightMenu_Tests" name="testSetInput" time="0.0">
+      <testcase classname="unitTests.FlightMenu_Tests" name="testSetInput" time="0.0010">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1243,7 +1249,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="2" failures="1" hostname="tims-macbook" id="4" name="FlightPlan_Tests" package="unitTests" skipped="0" tests="8" time="0.102" timestamp="2014-03-14T21:57:51">
+  <testsuite errors="0" failures="1" hostname="tims-macbook" id="4" name="FlightPlan_Tests" package="unitTests" skipped="0" tests="8" time="0.117" timestamp="2014-03-14T23:18:34">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -1294,8 +1300,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -1375,13 +1379,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightPlan_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.FlightPlan_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher1430087326329877303.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit8631739372254835225.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightPlan_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.FlightPlan_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher4391750722646591573.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit1047593651333449186.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -1422,6 +1426,8 @@
           <property name="mrj.version" value="1070.1.6.0_65-462" />
 
           <property name="line.separator" value="&#xa;" />
+
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
@@ -1439,14 +1445,9 @@
 
       </properties>
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest1" time="0.015">
-          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at unitTests.FlightPlan_Tests.buildRouteTest1(FlightPlan_Tests.java:73)
-</failure>
+      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest1" time="0.01" />
 
-      </testcase>
-
-      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest2" time="0.0010" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest2" time="0.0040" />
 
       <testcase classname="unitTests.FlightPlan_Tests" name="buildRouteTest3" time="0.0" />
 
@@ -1454,32 +1455,23 @@
 
       <testcase classname="unitTests.FlightPlan_Tests" name="generateVelocityTest" time="0.0010" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest" time="0.0020">
-          <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
-	at java.util.ArrayList.get(ArrayList.java:322)
-	at unitTests.FlightPlan_Tests.updateFlightPlanTest(FlightPlan_Tests.java:141)
-</error>
+      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest" time="0.0070">
+          <failure message="expected:&lt;4.0&gt; but was:&lt;5.0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;4.0&gt; but was:&lt;5.0&gt;
+	at unitTests.FlightPlan_Tests.updateFlightPlanTest(FlightPlan_Tests.java:144)
+</failure>
 
       </testcase>
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="generateEntryPointTest1" time="0.0010" />
+      <testcase classname="unitTests.FlightPlan_Tests" name="generateEntryPointTest1" time="0.0" />
 
-      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest2" time="0.0010">
-          <error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
-	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
-	at java.util.ArrayList.get(ArrayList.java:322)
-	at unitTests.FlightPlan_Tests.updateFlightPlanTest2(FlightPlan_Tests.java:151)
-</error>
-
-      </testcase>
+      <testcase classname="unitTests.FlightPlan_Tests" name="updateFlightPlanTest2" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="3" hostname="tims-macbook" id="5" name="Flight_Tests" package="unitTests" skipped="0" tests="32" time="0.127" timestamp="2014-03-14T21:57:51">
+  <testsuite errors="0" failures="3" hostname="tims-macbook" id="5" name="Flight_Tests" package="unitTests" skipped="0" tests="32" time="0.189" timestamp="2014-03-14T23:18:35">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -1530,8 +1522,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -1611,13 +1601,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Flight_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Flight_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher5809339693336093620.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit2474412058298787806.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Flight_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Flight_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher6053524386597623770.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit2728608937338196720.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -1658,6 +1648,8 @@
           <property name="mrj.version" value="1070.1.6.0_65-462" />
 
           <property name="line.separator" value="&#xa;" />
+
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
@@ -1677,9 +1669,9 @@
 
       <testcase classname="unitTests.Flight_Tests" name="turnFlightLeftTest1" time="0.0090" />
 
-      <testcase classname="unitTests.Flight_Tests" name="turnFlightLeftTest2" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="turnFlightLeftTest2" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="turnFlightLeftTest3" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="turnFlightLeftTest3" time="0.0" />
 
       <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest1" time="0.0060">
           <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
@@ -1695,11 +1687,11 @@
 
       </testcase>
 
-      <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest3" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest3" time="0.0" />
 
       <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest4" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest5" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="checkIfFlightAtWaypointTest5" time="0.0" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest1" time="0.0" />
 
@@ -1709,9 +1701,9 @@
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest4" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest5" time="0.0" />
+      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest5" time="0.0010" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest6" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest6" time="0.0" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateCurrentHeadingTest7" time="0.0" />
 
@@ -1721,11 +1713,11 @@
 
       <testcase classname="unitTests.Flight_Tests" name="calculateHeadingToFirstWaypointTest2" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest1" time="0.0" />
+      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest1" time="0.0010" />
 
       <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest2" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest3" time="0.0" />
+      <testcase classname="unitTests.Flight_Tests" name="turnFlightRightTest3" time="0.0010" />
 
       <testcase classname="unitTests.Flight_Tests" name="generateAltitudeTest1" time="0.0010">
           <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
@@ -1740,9 +1732,9 @@
 
       <testcase classname="unitTests.Flight_Tests" name="giveHeadingTest3" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="giveHeadingTest4" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="giveHeadingTest4" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest1" time="0.0010" />
+      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest1" time="0.0" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest2" time="0.0" />
 
@@ -1750,7 +1742,7 @@
 
       <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest4" time="0.0" />
 
-      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest5" time="0.0" />
+      <testcase classname="unitTests.Flight_Tests" name="updateAltitudeTest5" time="0.0010" />
 
       <testcase classname="unitTests.Flight_Tests" name="updateXYCoordinates" time="0.0" />
 
@@ -1759,7 +1751,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="4" failures="0" hostname="tims-macbook" id="6" name="HoverImage_Test" package="unitTests" skipped="0" tests="4" time="0.955" timestamp="2014-03-14T21:57:52">
+  <testsuite errors="4" failures="0" hostname="tims-macbook" id="6" name="HoverImage_Test" package="unitTests" skipped="0" tests="4" time="0.37" timestamp="2014-03-14T23:18:36">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -1810,8 +1802,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -1891,13 +1881,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.HoverImage_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.HoverImage_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher1378127540518825330.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit3432095593759577233.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.HoverImage_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.HoverImage_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher275477362731220373.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit6022442177536449490.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -1939,6 +1929,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -1955,7 +1947,7 @@
 
       </properties>
 
-      <testcase classname="unitTests.HoverImage_Test" name="testGetX" time="0.083">
+      <testcase classname="unitTests.HoverImage_Test" name="testGetX" time="0.077">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -1987,7 +1979,7 @@
 
       </testcase>
 
-      <testcase classname="unitTests.HoverImage_Test" name="testSetX" time="0.0030">
+      <testcase classname="unitTests.HoverImage_Test" name="testSetX" time="0.0020">
           <error message="No OpenGL context found in the current thread." type="java.lang.RuntimeException">java.lang.RuntimeException: No OpenGL context found in the current thread.
 	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
 	at org.lwjgl.opengl.GL11.glGetError(GL11.java:1289)
@@ -2024,7 +2016,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="4" hostname="tims-macbook" id="7" name="PlayState_Test" package="unitTests" skipped="0" tests="6" time="0.081" timestamp="2014-03-14T21:57:54">
+  <testsuite errors="0" failures="4" hostname="tims-macbook" id="7" name="PlayState_Test" package="unitTests" skipped="0" tests="6" time="0.097" timestamp="2014-03-14T23:18:37">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -2075,8 +2067,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -2156,13 +2146,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.PlayState_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.PlayState_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher195107596136817326.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit2515093883928177955.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.PlayState_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.PlayState_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher4445292290574248430.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit5921293772608725667.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -2204,6 +2194,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -2220,16 +2212,16 @@
 
       </properties>
 
-      <testcase classname="unitTests.PlayState_Test" name="testPlayState" time="0.01">
+      <testcase classname="unitTests.PlayState_Test" name="testPlayState" time="0.014">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.PlayState_Test.testPlayState(PlayState_Test.java:30)
 </failure>
 
       </testcase>
 
-      <testcase classname="unitTests.PlayState_Test" name="testGetID" time="0.0" />
+      <testcase classname="unitTests.PlayState_Test" name="testGetID" time="0.0010" />
 
-      <testcase classname="unitTests.PlayState_Test" name="testInit" time="0.0010">
+      <testcase classname="unitTests.PlayState_Test" name="testInit" time="0.0020">
           <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
 	at unitTests.PlayState_Test.testInit(PlayState_Test.java:35)
 </failure>
@@ -2257,7 +2249,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="tims-macbook" id="8" name="ScoreTracking_Test" package="unitTests" skipped="0" tests="8" time="0.082" timestamp="2014-03-14T21:57:54">
+  <testsuite errors="0" failures="0" hostname="tims-macbook" id="8" name="ScoreTracking_Test" package="unitTests" skipped="0" tests="8" time="0.078" timestamp="2014-03-14T23:18:38">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -2308,8 +2300,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -2389,13 +2379,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.ScoreTracking_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.ScoreTracking_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher2618002324668858452.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit4255685561214059521.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.ScoreTracking_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.ScoreTracking_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher7468610386811922611.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit1446112214239480182.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -2436,6 +2426,8 @@
           <property name="mrj.version" value="1070.1.6.0_65-462" />
 
           <property name="line.separator" value="&#xa;" />
+
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
@@ -2459,7 +2451,7 @@
 
       <testcase classname="unitTests.ScoreTracking_Test" name="testToString" time="0.0" />
 
-      <testcase classname="unitTests.ScoreTracking_Test" name="testUpdateWaypointScore" time="0.0010" />
+      <testcase classname="unitTests.ScoreTracking_Test" name="testUpdateWaypointScore" time="0.0" />
 
       <testcase classname="unitTests.ScoreTracking_Test" name="testUpdateTimeScore" time="0.0" />
 
@@ -2467,14 +2459,14 @@
 
       <testcase classname="unitTests.ScoreTracking_Test" name="testReduceScoreOnFlightplanChange" time="0.0" />
 
-      <testcase classname="unitTests.ScoreTracking_Test" name="testResetScore" time="0.0010" />
+      <testcase classname="unitTests.ScoreTracking_Test" name="testResetScore" time="0.0" />
 
       <system-out><![CDATA[]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="2" failures="0" hostname="tims-macbook" id="9" name="SeparationRules_Tests" package="unitTests" skipped="0" tests="5" time="0.082" timestamp="2014-03-14T21:57:55">
+  <testsuite errors="4" failures="0" hostname="tims-macbook" id="9" name="SeparationRules_Tests" package="unitTests" skipped="0" tests="5" time="0.108" timestamp="2014-03-14T23:18:38">
       <properties>
           <property name="java.vendor" value="Apple Inc." />
 
@@ -2525,8 +2517,6 @@
           <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
 
           <property name="ant.project.default-target" value="play" />
-
-          <property name="env.JAVA_MAIN_CLASS_1489" value="org.apache.tools.ant.launch.Launcher" />
 
           <property name="ant.project.name" value="Game" />
 
@@ -2606,13 +2596,13 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.SeparationRules_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.SeparationRules_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher5393931868236896626.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit4437273169174788651.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.SeparationRules_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.SeparationRules_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher826612551237575871.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit2319713728397135077.properties" />
 
           <property name="java.class.path" value="/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
 
-          <property name="env.TERM_SESSION_ID" value="CE1F4DAD-0EB2-48EF-9CA3-72E3076D63EA" />
+          <property name="env.TERM_SESSION_ID" value="E005285E-4125-456D-A2E5-7E1E5AA43B15" />
 
           <property name="env.com.apple.java.jvmMode" value="client" />
 
@@ -2654,6 +2644,8 @@
 
           <property name="line.separator" value="&#xa;" />
 
+          <property name="env.JAVA_MAIN_CLASS_7104" value="org.apache.tools.ant.launch.Launcher" />
+
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
           <property name="basedir" value="/Users/tim/Projects/sepr/assessment4" />
@@ -2670,13 +2662,21 @@
 
       </properties>
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseVerticalTest" time="0.0070" />
+      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseVerticalTest" time="0.0080" />
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="verticalDistanceBetweenFlightsTest" time="0.0" />
+      <testcase classname="unitTests.SeparationRules_Tests" name="verticalDistanceBetweenFlightsTest" time="0.0080">
+          <error message="Index: 3, Size: 3" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at logicClasses.FlightPlan.generateEntryPoint(FlightPlan.java:64)
+	at logicClasses.FlightPlan.&lt;init&gt;(FlightPlan.java:41)
+	at logicClasses.Flight.&lt;init&gt;(Flight.java:68)
+	at unitTests.SeparationRules_Tests.setUp(SeparationRules_Tests.java:37)
+</error>
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseLateralTest" time="0.0" />
+      </testcase>
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="lateralDistanceBetweenFLightsTest" time="0.0060">
+      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationFalseLateralTest" time="0.013">
           <error message="Index: 3, Size: 3" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
 	at java.util.ArrayList.get(ArrayList.java:322)
@@ -2688,7 +2688,19 @@
 
       </testcase>
 
-      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationTrueTest" time="0.0020">
+      <testcase classname="unitTests.SeparationRules_Tests" name="lateralDistanceBetweenFLightsTest" time="0.0040">
+          <error message="Index: 3, Size: 3" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at logicClasses.FlightPlan.generateEntryPoint(FlightPlan.java:64)
+	at logicClasses.FlightPlan.&lt;init&gt;(FlightPlan.java:41)
+	at logicClasses.Flight.&lt;init&gt;(Flight.java:68)
+	at unitTests.SeparationRules_Tests.setUp(SeparationRules_Tests.java:37)
+</error>
+
+      </testcase>
+
+      <testcase classname="unitTests.SeparationRules_Tests" name="checkViolationTrueTest" time="0.0030">
           <error message="Index: 3, Size: 3" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
 	at java.util.ArrayList.get(ArrayList.java:322)

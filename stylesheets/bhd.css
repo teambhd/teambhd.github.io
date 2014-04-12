@@ -107,8 +107,8 @@ body {
     font-size:78px; /* equal to a width of 100px in fixed width mode */
 }
 
-#menu-text {
-    margin-top:13px;
+#menu img {
+    display:block;
 }
 
 .example {
@@ -116,10 +116,6 @@ body {
     border:1px solid #D3D3D3;
     border-radius:5px;
     background-color:#F3F3F3;
-}
-
-#menu .example {
-    margin-top:13px;
 }
 
 .grey-bg .example {

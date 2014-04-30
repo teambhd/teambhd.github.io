@@ -12,7 +12,7 @@ body {
 }
 
 #header {
-    background-color:#3F4141;
+    background-color:#565656;
     padding-top:25px;
     height:105px;
 }
@@ -88,7 +88,7 @@ body {
     font-size:40px;
 }
 
-#read-on {
+#problems {
     font-size:18px;
     text-align:center;
     margin-bottom:20px;
@@ -109,33 +109,6 @@ body {
 
 #menu img {
     display:block;
-}
-
-.example {
-    padding:10px;
-    border:1px solid #D3D3D3;
-    border-radius:5px;
-    background-color:#F3F3F3;
-}
-
-.grey-bg .example {
-    background-color:white;
-}
-
-.example h3 {
-    font-size:20px;
-    line-height:20px;
-}
-
-.example p:last-child, .why p:last-child {
-    margin-bottom:0px;
-}
-
-#problems {
-    font-size:18px;
-    text-align:center;
-    margin-bottom:20px;
-    margin-top:20px;
 }
 
 #bottom-links {

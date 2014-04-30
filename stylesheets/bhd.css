@@ -98,15 +98,6 @@ body {
     background-color:#F3F3F3;
 }
 
-.why {
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-.why-icon {
-    font-size:78px; /* equal to a width of 100px in fixed width mode */
-}
-
 #menu img {
     display:block;
 }

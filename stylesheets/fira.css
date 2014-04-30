@@ -42,7 +42,7 @@
     font-style: italic;
 }
 
-@font-face{
+/*@font-face{
     font-family: 'Fira Mono';
     src: url('../fonts/FiraMono-Regular.eot');
     src: local('Fira Mono'),
@@ -62,4 +62,4 @@
          url('../fonts/FiraMono-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
-}
+}*/

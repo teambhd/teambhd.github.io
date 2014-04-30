@@ -141,6 +141,7 @@ body {
 #bottom-links {
     text-align:center;
     margin-bottom:20px;
+    margin-top:20px;
 }
 
 #bottom-links .container {

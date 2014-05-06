@@ -1,0 +1,2037 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['unitTests.Airspace_Tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Airspace_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Airspace_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher1732251673820688403.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit5066297292028558778.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.Controls_Tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Controls_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Controls_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher2490994930458781715.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit4386335053616709300.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.DeferredFile_Test'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.DeferredFile_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.DeferredFile_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher7420658892999464615.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit8204360527611383375.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.FlightPlan_Tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.FlightPlan_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.FlightPlan_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher2584317448777570367.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit4406554399469133748.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.Flight_Tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.Flight_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.Flight_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher5813051018399603199.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit1175560488347486357.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.PlayState_Test'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.PlayState_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.PlayState_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher7835545699532728575.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit3908135567411625848.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.ScoreTracking_Test'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.ScoreTracking_Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.ScoreTracking_Test.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher8313904040792011231.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit6966527741845239319.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['unitTests.SeparationRules_Tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.Game'] = '/Users/tim/Projects/sepr/assessment4/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.Game'] = 'file';
+    
+        cur['ant.home'] = '/usr/local/Cellar/ant/1.9.3/libexec';
+    
+        cur['ant.java.version'] = '1.6';
+    
+        cur['ant.library.dir'] = '/usr/local/Cellar/ant/1.9.3/libexec/lib';
+    
+        cur['ant.project.default-target'] = 'play';
+    
+        cur['ant.project.invoked-targets'] = 'report';
+    
+        cur['ant.project.name'] = 'Game';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on December 23 2013';
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.__CF_USER_TEXT_ENCODING'] = '0x1F5:0:2';
+    
+        cur['env.__CHECKFIX1436934'] = '1';
+    
+        cur['env.Apple_PubSub_Socket_Render'] = '/tmp/launch-Wvd5sK/Render';
+    
+        cur['env.CLICOLOR'] = '1';
+    
+        cur['env.com.apple.java.jvmMode'] = 'client';
+    
+        cur['env.com.apple.java.jvmTask'] = 'CommandLine_Manual.java';
+    
+        cur['env.DISPLAY'] = '/tmp/launch-bHvPAm/org.macosforge.xquartz:0';
+    
+        cur['env.GREP_OPTIONS'] = '--color=auto';
+    
+        cur['env.HOME'] = '/Users/tim';
+    
+        cur['env.JAVA_MAIN_CLASS_1713'] = 'org.apache.tools.ant.launch.Launcher';
+    
+        cur['env.LANG'] = 'en_GB.UTF-8';
+    
+        cur['env.LOGNAME'] = 'tim';
+    
+        cur['env.LSCOLORS'] = 'ExFxBxDxCxegedabagacad';
+    
+        cur['env.PATH'] = '/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Users/tim/Projects/binaries:/opt/X11/bin:/usr/texbin:/Users/tim/Dropbox/Binaries';
+    
+        cur['env.PWD'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/tmp/launch-osXHi3/Listeners';
+    
+        cur['env.TERM'] = 'xterm-256color';
+    
+        cur['env.TERM_PROGRAM'] = 'Apple_Terminal';
+    
+        cur['env.TERM_PROGRAM_VERSION'] = '326';
+    
+        cur['env.TERM_SESSION_ID'] = '22970DA8-851B-4304-9315-87E3963990CF';
+    
+        cur['env.TMPDIR'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['env.USER'] = 'tim';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/tim/Projects/sepr/assessment4/bin:/Users/tim/Projects/sepr/assessment4/lib/jars/lwjgl.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/slick.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jogg-0.0.7.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/jorbis-0.0.17-1.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/junit-4.11.jar:/Users/tim/Projects/sepr/assessment4/lib/jars/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.3/libexec/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/x6/zgstv89141sgtpjvh1tg6hh00000gn/T/';
+    
+        cur['java.library.path'] = 'lib/natives';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_65-b14-462-11M4609';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_65';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.65-b04-462';
+    
+        cur['jikes.class.path'] = ':/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-rt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/alt-string.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/charsets.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/classes.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/dt.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jconsole.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/management-agent.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/../Classes/ui.jar';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['mrj.build'] = '11M4609';
+    
+        cur['mrj.version'] = '1070.1.6.0_65-462';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner unitTests.SeparationRules_Tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/tim/Projects/sepr/assessment4/junit/TEST-unitTests.SeparationRules_Tests.xml crashfile=/Users/tim/Projects/sepr/assessment4/junitvmwatcher6449502932467332716.properties propsfile=/Users/tim/Projects/sepr/assessment4/junit3298334555048519334.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/Users/tim/Projects/sepr/assessment4';
+    
+        cur['user.home'] = '/Users/tim';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'tim';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="Failure">
+<td>71</td><td>2</td><td>0</td><td>0</td><td>97.18%</td><td>0.772</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#unitTests">unitTests</a></td><td>71</td><td>0</td><td>2</td><td>0</td><td>0.772</td><td>2014-05-06T10:17:11</td><td>tims-macbook</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name="unitTests"></a>
+<h3>Package unitTests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#Airspace_Tests">Airspace_Tests</a></td><td>7</td><td>0</td><td>0</td><td>0</td><td>0.151</td><td>2014-05-06T10:17:11</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#Controls_Tests">Controls_Tests</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>0.082</td><td>2014-05-06T10:17:12</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#DeferredFile_Test">DeferredFile_Test</a></td><td>2</td><td>0</td><td>0</td><td>0</td><td>0.069</td><td>2014-05-06T10:17:12</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#FlightPlan_Tests">FlightPlan_Tests</a></td><td>8</td><td>0</td><td>1</td><td>0</td><td>0.106</td><td>2014-05-06T10:17:13</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="#Flight_Tests">Flight_Tests</a></td><td>41</td><td>0</td><td>1</td><td>0</td><td>0.136</td><td>2014-05-06T10:17:14</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#PlayState_Test">PlayState_Test</a></td><td>1</td><td>0</td><td>0</td><td>0</td><td>0.069</td><td>2014-05-06T10:17:14</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ScoreTracking_Test">ScoreTracking_Test</a></td><td>6</td><td>0</td><td>0</td><td>0</td><td>0.077</td><td>2014-05-06T10:17:15</td><td>tims-macbook</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#SeparationRules_Tests">SeparationRules_Tests</a></td><td>5</td><td>0</td><td>0</td><td>0</td><td>0.082</td><td>2014-05-06T10:17:15</td><td>tims-macbook</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="Airspace_Tests"></a>
+<h3>TestCase Airspace_Tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>handoverTimerTest1</td><td>Success</td><td></td><td>0.015</td>
+</tr>
+<tr valign="top" class="">
+<td>handoverTimerTest2</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>newExitPointTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>checkIfFlightHasLeftAirspaceTest</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>newEntryPointTest</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>resetAirspaceTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>newWaypointTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.Airspace_Tests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="Controls_Tests"></a>
+<h3>TestCase Controls_Tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testUnavailableControls</td><td>Success</td><td></td><td>0.013</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.Controls_Tests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="DeferredFile_Test"></a>
+<h3>TestCase DeferredFile_Test</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testLoad</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetDescription</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.DeferredFile_Test');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="Flight_Tests"></a>
+<h3>TestCase Flight_Tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightLeftTest1</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightLeftTest2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightLeftTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>checkIfFlightAtWaypointTest1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="Error">
+<td>checkIfFlightAtWaypointTest2</td><td>Failure</td><td>N/A<code>
+<br>
+<br>junit.framework.AssertionFailedError<br>	at unitTests.Flight_Tests.checkIfFlightAtWaypointTest2(Flight_Tests.java:198)<br>
+</code></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>checkIfFlightAtWaypointTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>checkIfFlightAtWaypointTest4</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>checkIfFlightAtWaypointTest5</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest4</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest5</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest6</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest7</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateCurrentHeadingTest8</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>calculateHeadingToFirstWaypointTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>calculateHeadingToFirstWaypointTest2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>handoverTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>handoverTest2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>handoverTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightRightTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightRightTest2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>turnFlightRightTest3</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>generateAltitudeTest1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>giveHeadingTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>giveHeadingTest2</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>giveHeadingTest3</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>giveHeadingTest4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateAltitudeTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateAltitudeTest2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateAltitudeTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateAltitudeTest4</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>updateAltitudeTest5</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateXYCoordinates</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest1</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest3</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest4</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest5</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>landTest6</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.Flight_Tests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="FlightPlan_Tests"></a>
+<h3>TestCase FlightPlan_Tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>buildRouteTest1</td><td>Success</td><td></td><td>0.018</td>
+</tr>
+<tr valign="top" class="">
+<td>buildRouteTest2</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>buildRouteTest3</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>buildRouteTest4</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>generateVelocityTest</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="Error">
+<td>updateFlightPlanTest</td><td>Failure</td><td>expected:&lt;2&gt; but was:&lt;3&gt;<code>
+<br>
+<br>junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;3&gt;<br>	at unitTests.FlightPlan_Tests.updateFlightPlanTest(FlightPlan_Tests.java:146)<br>
+</code></td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td>generateEntryPointTest1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>updateFlightPlanTest2</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.FlightPlan_Tests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="PlayState_Test"></a>
+<h3>TestCase PlayState_Test</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testGetID</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.PlayState_Test');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ScoreTracking_Test"></a>
+<h3>TestCase ScoreTracking_Test</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testGetScore</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testUpdateScore</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testUpdateWaypointScore</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testUpdateTimeScore</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testReduceScoreOnFlightLost</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testResetScore</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.ScoreTracking_Test');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="SeparationRules_Tests"></a>
+<h3>TestCase SeparationRules_Tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>checkViolationFalseVerticalTest</td><td>Success</td><td></td><td>0.011</td>
+</tr>
+<tr valign="top" class="">
+<td>verticalDistanceBetweenFlightsTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>checkViolationFalseLateralTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>lateralDistanceBetweenFLightsTest</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>checkViolationTrueTest</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('unitTests.SeparationRules_Tests');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>
